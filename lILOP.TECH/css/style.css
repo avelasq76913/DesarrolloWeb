@@ -1,0 +1,377 @@
+body{
+    font-family: 'Times New Roman';
+    background-color: #000;
+    opacity: 0.9;
+    color: rgb(255, 240, 240);
+    width: 100%;
+
+} 
+
+#body{
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 90%;
+    margin: 0 auto;
+    
+    }
+
+#header{
+    background-color: black;
+    font-size:20px;
+    font-family: verdana;
+    border: solid 2px gray;
+    width: 100%;
+    display: flexbox;
+    text-align: center;
+    margin: 0 auto;
+
+    
+}
+#contenedorSuperior{
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+    overflow-y: scroll;
+    border-bottom: solid 1px black;
+    font-family: verdana;
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    
+}
+
+#contenedorinferior{
+    width: 90%;
+    margin: 0 auto;
+    height: 500PX;
+    overflow-y: scroll;
+    font-family: arial;
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    
+}
+
+
+#casillainf{
+    background-color: black;
+    background-image: hre;
+    opacity: 0.6;
+    margin: 10px;
+    padding: 6px;
+    border-left-style: outset;
+    width: 350px;
+    height: 200px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+#casillainf:hover{
+    background-image: src;
+    
+    opacity: 0.3;
+    margin: 10px;
+    padding: 6px;
+    border-left-style: outset;
+    width: 350px;
+    height: 200px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+#casillasup{
+    background-color: black;
+    opacity: 1;
+    margin: 5px;
+    padding: 2px;
+    border-left-style: outset;
+    width: 160px;
+    height: 90px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+#progreso {
+    background: gray;
+    border-radius: 13px;
+    height: 120px;
+    width: 100%;
+    padding: 2px;
+    text-decoration: none;
+}
+
+#progreso:after {
+    content: '';
+    display: block;
+    opacity: 1;
+    background: rgb(255, 68, 11);
+    width: 22%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+#footer{    
+    background-color: black;
+    width: 100%;
+    height: auto;
+    border: solid 2px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.link{
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+div:hover, a:active {
+    text-decoration: none;
+    color: white;
+    font-family: verdana;
+}
+
+
+#tituloproyecto2{
+    text-align: center; 
+    display: flex;
+    text-decoration: none;
+}
+
+#tituloproyecto{
+    text-align: center; 
+    display: block;
+    text-decoration: none;
+}
+
+#bloques{
+    height: 650px;
+    position: relative;
+    top: px;
+    font-family: verdana;
+    left: 50px;
+    margin: 50px;
+    overflow-y: scroll;
+    border: solid 2px;
+    width: 40%;
+    text-decoration: none;
+}
+#a {
+    background: gray;
+    border-radius: 13px;
+    height: 20px;
+    width: 100%;
+    padding: 3px;
+    text-decoration: none;
+}
+
+#a:after {
+    content: '';
+    display: block;
+    opacity: 1;
+    background: green;
+    width: 66%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+#b {
+    background: gray;
+    border-radius: 13px;
+    height: 20px;
+    width: 100%;
+    padding: 3px;
+    text-decoration: none;
+}
+
+#b:after {
+    content: '';
+    display: block;
+    opacity: 1;
+    background: green;
+    width: 60%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+#c{
+    background: gray;
+    border-radius: 13px;
+    height: 20px;
+    width: 100%;
+    padding: 3px;
+    text-decoration: none;
+}
+
+#c:after {
+    content: '';
+    display: block;
+    opacity: 1;
+    background: green;
+    width: 58%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+#d {
+    background: gray;
+    border-radius: 13px;
+    height: 20px;
+    width: 100%;
+    padding: 3px;
+    text-decoration: none;
+}
+
+#d:after {
+    content: '';
+    display: block;
+    opacity: 1;
+    background: green;
+    width: 48%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+#e {
+    background: gray;
+    border-radius: 13px;
+    height: 20px;
+    width: 100%;
+    padding: 3px;
+    text-decoration: none;
+}
+
+#e:after {
+    content: '';
+    display: block;
+    opacity: 1;
+    background: green;
+    width: 70%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+#f{
+    background: gray;
+    border-radius: 13px;
+    height: 20px;
+    width: 100%;
+    padding: 3px;
+    text-decoration: none;
+}
+
+#f:after {
+    content: '';
+    display: block;
+    opacity: 1;
+    background: green;
+    width: 44%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+#g{
+    background: gray;
+    border-radius: 13px;
+    height: 20px;
+    width: 100%;
+    padding: 3px;
+    text-decoration: none;
+}
+
+#g:after {
+    content: '';
+    display: block;
+    opacity: 1;
+    background: green;
+    width: 41%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+#h {
+    background: gray;
+    border-radius: 13px;
+    height: 20px;
+    width: 100%;
+    padding: 3px;
+    text-decoration: none;
+}
+
+#h:after {
+    content: '';
+    display: block;
+    opacity: 1;
+    background: green;
+    width: 33%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: none;
+}
+#i {
+    background: gray;
+    border-radius: 13px;
+    height: 20px;
+    width: 100%;
+    padding: 3px;
+    text-decoration: none;
+}
+
+#i:after {
+    content: '';
+    display: block;
+    opacity: 1;
+    background: green;
+    width: 66%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: none;
+}
+#j {
+    background: gray;
+    border-radius: 13px;
+    height: 20px;
+    width: 100%;
+    padding: 3px;
+    text-decoration: none;
+}
+
+#j:after {
+    content: '';
+    display: block;
+    opacity: 1;
+    background: green;
+    width: 55%;
+    height: 100%;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+.fondouno{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
